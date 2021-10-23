@@ -1,6 +1,6 @@
 # AT LAST THIS IS WHAT YOU'VE BEEN LOOKING FOR
-# Project submitted in PlutoHack contest, Oct 22-24, 2021
-# Brainstorm and implement:
+Project submitted in PlutoHack contest, Oct 22-24, 2021
+Brainstorm and implement:
 # Inspiration:
 Studying online during the pandemic, it is often difficult for students to find the right resources for them.
 Some students are interested in learning with visuals, others are interested in learning through listening to lectures or reading materials and doing research.
