@@ -1,0 +1,121 @@
+﻿@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+@import"https://fonts.googleapis.com/css?family=Lora&display=swap";
+
+body {
+    font-family: 'Lora', sans-serif;
+    background: #273B4A;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #273B4A;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    background: #273B4A;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #273B4A;
+    }
+
+    #sidebar ul.components {
+        padding: 20px 0;
+        border-bottom: 1px solid #273B4A;
+    }
+
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+
+    #sidebar ul li a {
+        padding: 10px;
+        font-size: 1.1em;
+        display: block;
+    }
+
+        #sidebar ul li a:hover {
+            color: #273B4A;
+            background: #fff;
+        }
+
+    #sidebar ul li.active > a, a[aria-expanded="true"] {
+        color: #fff;
+        background: #273B4A;
+    }
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #273B4A;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+    #sidebar.active {
+        margin-left: -250px;
+    }
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%
+}
+
+li.ui-state-default {
+    background: #fff0;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+    li.ui-state-default:last-child {
+        border-bottom: none;
+    }
+
+.form-control {
+    border-color: #d7d7d7;
+}
+
+hr {
+    border-color: #ececec;
+}
+
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0;
+}
+
+h3 {
+    border: 0 solid #efefef;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+}
+
+.icon {
+   width: 20px; 
+   height: 20px; 
+   margin: 0 10px 0 0;
+}
