@@ -121,7 +121,6 @@
                 {
                     $materialid = $row_list["materialid"];
                     $materialtype = $row_list["materialtype"];
-                    $content = $row_list["content"];
                     $authorid = $row_list["authorid"];
                     
                     $sql_accountid1 = "SELECT name FROM account WHERE accountid = '$authorid'";
@@ -129,12 +128,11 @@
                     $row3 = $result3->fetch_assoc();
                     $authorname = $row3["name"];
 
-                    $sql_subjectname = "SELECT subjectname FROM subjects WHERE subjectid = '$subjectid'";
+                    $sql_subjectname = "SELECT subjectname, subjectimg FROM subjects WHERE subjectid = '$subjectid'";
                     $result4 = mysqli_query($conn,$sql_subjectname);
                     $row4 = $result4->fetch_assoc();
                     $subjectname = $row4["subjectname"];
-                    
-                                
+                    $content = $row4["subjectimg"];      
             ?>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">

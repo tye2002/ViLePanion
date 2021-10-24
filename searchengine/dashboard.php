@@ -30,7 +30,7 @@
    if ($_SESSION["activecode"] == 2){
         $hidden = 'hidden';
     } else if ($_SESSION["activecode"] == 1){
-        $hidden = 'hidden';
+        $hidden = '';
     } 
 
     if ($_SESSION["activecode"] == 0){
@@ -63,7 +63,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </head>
-<body>
+<body
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -100,7 +100,10 @@
                                         <option value="Math">Math</option> 
                                         <option value="Physics">Physics</option>                                    
                                         <option value="Chemistry">Chemistry</option>                                    
-                                        <option value="Literature">Literature</option>                                    
+                                        <option value="Literature">Literature</option>
+                                        <option value="Biology">Biology</option>                                    
+                                        <option value="Computer Sciene">Computer Sciene</option>
+                                        <option value="Art">Art</option>
                                     </select>
                                 </div>
                                 
@@ -175,20 +178,24 @@
                     $result4 = mysqli_query($conn,$sql_subjectid);
                     $row4 = $result4->fetch_assoc();
                     $subjectid = $row4["subjectid"];
-    
+
                     $sql_list = "SELECT * FROM material WHERE subjectid='$subjectid' AND materialtype='$materialtype'";
                     $result_list = mysqli_query($conn,$sql_list);
                     while ($row_list = $result_list -> fetch_assoc())
                     {   
                         $materialid = $row_list["materialid"];
                         $subjectid = $row_list["subjectid"];
-                        $content = $row_list["content"];
                         $authorid = $row_list["authorid"];
-                        
+
                         $sql_accountid1 = "SELECT name FROM account WHERE accountid = '$authorid'";
                         $result3 = mysqli_query($conn,$sql_accountid1);
                         $row3 = $result3->fetch_assoc();
                         $authorname = $row3["name"];
+
+                        $sql_subjectimg = "SELECT subjectimg FROM subjects WHERE subjectid = '$subjectid'";
+                        $result5 = mysqli_query($conn,$sql_subjectimg);
+                        $row5 = $result5->fetch_assoc();
+                        $content = $row5["subjectimg"];
                 }                         
             ?>
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -231,7 +238,6 @@
                         $materialid = $row_list["materialid"];
                         $subjectid = $row_list["subjectid"];
                         $materialtype = $row_list["materialtype"];
-                        $content = $row_list["content"];
                         $authorid = $row_list["authorid"];
                         
                         $sql_accountid1 = "SELECT name FROM account WHERE accountid = '$authorid'";
@@ -242,7 +248,12 @@
                         $sql_subjectname = "SELECT subjectname FROM subjects WHERE subjectid = '$subjectid'";
                         $result4 = mysqli_query($conn,$sql_subjectname);
                         $row4 = $result4->fetch_assoc();
-                        $subjectname = $row4["subjectname"];            
+                        $subjectname = $row4["subjectname"];    
+                        
+                        $sql_subjectimg = "SELECT subjectimg FROM subjects WHERE subjectid = '$subjectid'";
+                        $result5 = mysqli_query($conn,$sql_subjectimg);
+                        $row5 = $result5->fetch_assoc();
+                        $content = $row5["subjectimg"];
             ?>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card">
@@ -349,15 +360,14 @@
                 $row1 = $result1->fetch_assoc();
                 $accountid = $row1["accountid"];
 
-                $sql_subjectid = "SELECT subjectid FROM subjects WHERE subjectname = '$subjectname'";
+                $sql_subjectid = "SELECT subjectid, subjectimg FROM subjects WHERE subjectname = '$subjectname'";
                 $result2 = mysqli_query($conn,$sql_subjectid);
                 $row2 = $result2->fetch_assoc();
                 $subjectid = $row2["subjectid"];
 
                 // Add material
-                $materialid = generate_string($permitted_chars, 5); 
-                $content = "./img/placeholder700x300.png";
-                $sql= "INSERT INTO material(subjectid, materialid, materialtype, authorid, content) VALUES ('$subjectid','$materialid','$materialtype','$accountid','$content')";
+                $materialid = generate_string($permitted_chars, 5);
+                $sql= "INSERT INTO material(subjectid, materialid, materialtype, authorid) VALUES ('$subjectid','$materialid','$materialtype','$accountid')";
                 $result = mysqli_query($conn,$sql);
                 $sql_materialid = "SELECT materialid FROM material WHERE subjectid = '$subjectid'";
                 $result2 = mysqli_query($conn,$sql_materialid);

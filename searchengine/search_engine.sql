@@ -56,31 +56,30 @@ CREATE TABLE `material` (
   `subjectid` int(11) NOT NULL,
   `materialid` text DEFAULT NULL,
   `materialtype` varchar(250) CHARACTER SET utf8 DEFAULT NULL,
-  `authorid` int(11) NOT NULL,
-  `content` varchar(250) CHARACTER SET utf8 DEFAULT NULL
+  `authorid` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `material`
 --
 
-INSERT INTO `material` (`subjectid`, `materialid`, `materialtype`, `authorid`, `content`) VALUES
-(0, '21lxM', 'Virtual', 1, './img/placeholder700x300.png'),
-(0, '55THV', 'Aural', 1, './img/placeholder700x300.png'),
-(0, 'TR543', 'Read/Write', 1, './img/placeholder700x300.png'),
-(0, '12THN', 'Kinesthetic', 1, './img/placeholder700x300.png'),
-(2, '709HX', 'Read/Write', 1, './img/placeholder700x300.png'),
-(3, '124TX', 'Read/Write', 1, './img/placeholder700x300.png'),
-(1, 'smkuu', 'Virtual', 1, './img/placeholder700x300.png'),
-(1, 'TAvNa', 'Read/Write', 0, './img/placeholder700x300.png'),
-(2, 'YVMWb', 'Virtual', 0, './img/placeholder700x300.png'),
-(2, 'hCr2X', 'Aural', 0, './img/placeholder700x300.png'),
-(3, 'OUxdb', 'Virtual', 0, './img/placeholder700x300.png'),
-(2, 'adt4W', 'Kinesthetic', 0, './img/placeholder700x300.png'),
-(1, 'DIPoQ', 'Kinesthetic', 0, './img/placeholder700x300.png'),
-(3, 'CYV34', 'Kinesthetic', 0, './img/placeholder700x300.png'),
-(1, 'aTD1x', 'Aural', 0, './img/placeholder700x300.png'),
-(3, 'hdr4Q', 'Aural', 0, './img/placeholder700x300.png');
+INSERT INTO `material` (`subjectid`, `materialid`, `materialtype`, `authorid`) VALUES
+(0, '21lxM', 'Virtual', 1),
+(0, '55THV', 'Aural', 1),
+(1, 'TR543', 'Read/Write', 1),
+(1, '12THN', 'Kinesthetic', 1),
+(2, '709HX', 'Read/Write', 1),
+(2, '124TX', 'Read/Write', 1),
+(3, 'smkuu', 'Virtual', 1),
+(3, 'TAvNa', 'Read/Write', 0),
+(4, 'YVMWb', 'Virtual', 0),
+(4, 'hCr2X', 'Aural', 0),
+(5, 'OUxdb', 'Virtual', 0),
+(5, 'adt4W', 'Kinesthetic', 0),
+(6, 'DIPoQ', 'Kinesthetic', 0),
+(6, 'CYV34', 'Kinesthetic', 0),
+(0, 'aTD1x', 'Aural', 0),
+(1, 'hdr4Q', 'Aural', 0);
 
 -- --------------------------------------------------------
 
@@ -90,18 +89,22 @@ INSERT INTO `material` (`subjectid`, `materialid`, `materialtype`, `authorid`, `
 
 CREATE TABLE `subjects` (
   `subjectid` int(11) NOT NULL,
-  `subjectname` varchar(250) CHARACTER SET utf8 NOT NULL
+  `subjectname` varchar(250) CHARACTER SET utf8 NOT NULL,
+  `subjectimg` varchar(250) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `subjects`
 --
 
-INSERT INTO `subjects` (`subjectid`, `subjectname`) VALUES
-(0, 'Math'),
-(1, 'Physics'),
-(2, 'Chemistry'),
-(3, 'Literature');
+INSERT INTO `subjects` (`subjectid`, `subjectname`, `subjectimg`) VALUES
+(0, 'Math','./img/Math.png'),
+(1, 'Physics','./img/Physics.png'),
+(2, 'Chemistry','./img/Chemistry.png'),
+(3, 'Biology','./img/Biology.png'),
+(4, 'Computer Sciene','./img/Computer.png'),
+(5, 'Art','./img/Art.png'),
+(6, 'Literature','./img/Literature.png');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
