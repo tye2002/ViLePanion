@@ -1,37 +1,28 @@
-# AT LAST THIS IS WHAT YOU'VE BEEN LOOKING FOR
 
-Project submitted in PlutoHack contest, Oct 22-24, 2021
+Project submitted for PlutoHack contest, Oct 22-24, 2021
 
 Brainstorm and implement: haimeii, reallnhwy, tye2002, HuyDnh
 
+# #VILEPANION - YOUR COMPANION TO SUCCESS
 # Inspiration:
-Studying online during the pandemic, it is often difficult for students to find the right resources for them.
+Due to the ineffectiveness of learning in an ordinary way not only during the pandemic but has existed for a long time, our team planned to solve the problem and came up with a recognization of students' different ways of absorbing knowledge which has a significant impact on study’s performance. 
+We decided to create a website that allows the students to study in their proper learning style which consists of four core types:  **visual, auditory, reading and writing, and kinesthetic.** The website will ultimately improve and enhance the ability of individual learners as well as increase learning enjoyment.
 
-Some students are interested in learning with visuals, others are interested in learning through listening to lectures or reading materials and doing research.
 # What it does:
-This project allows teachers to deliver materials based on 4 different standards:
+*ViLepanion* provides the student with a survey to determine the student's suitable percentage for each learning style and conducts a result of which learning style suits the student the best. The student can do research and study the materials from the teachers on the website that are sorted according to the survey's result percentage.
 
-Virtual
-
-Aural
-
-Read and write
-
-Kinesthetic
-
-And allowing students to search documents also based on the above criteria for each different subject.
 # How we built it:
-We build it with some HTML, CSS, PHP and SQL.
-
+We used HTML, CSS for coding the front-end, and PHP, SQL for the back-end. 
 It's still not perfect or pretty.
-# Challenges we ran into:
-It's our first time working together so there are still many problems in communication and ideation
 
-Because of our limited knowledge, the product we created has not really been applied in practice.
+# Challenges we ran into:
+Due to the miscommunication of the first time working as a team, we faced some misunderstandings and needless struggles in comprehending each other's opinions. Moreover, when brainstorming ideas, there were many times that we got stuck and could not find the solution therefore a lot of incomplete plans had to be canceled.
+
 # Accomplishments that we've proud to:
-We learned how to use PHP and SQL for the first time.
+By utilizing the two design tools that we have just known, Figma and Powtoon our team successfully completed the prototype and the website before our intended time.
 
 # What we learned:
-We learned to support each other as a team.
-# What's next for Untitled:
-Maybe some improvement on the project or we will continue to work together in some other contest.
+Together we learned how to work with Figma and Powtoon, a tool that we have not used before PlutoHacks, to design the prototype as well as the presentation video. Besides, PHP is a new programming language that Mei and Andrea got the first chance to get to know.
+
+# What's next for *ViLepanion:
+*ViLepanion* is believed to aid in learning overall in the future, therefore, we will create a mobile version and add in more functions to increase the interaction between the student and the teacher such as the comment section after every lecture so that the student can ask questions and receive answers from the teacher. Moreover, *ViLepanion* will be upgraded to be an Electronic Contact Book that assists the parents in tracking their children's learning status, grades, upcoming deadlines, and homework.
