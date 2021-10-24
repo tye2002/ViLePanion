@@ -2,7 +2,7 @@
 
 Project submitted in PlutoHack contest, Oct 22-24, 2021
 
-Brainstorm and implement:
+Brainstorm and implement: haimeii, reallnhwy, tye2002
 
 # Inspiration:
 Studying online during the pandemic, it is often difficult for students to find the right resources for them.
@@ -31,7 +31,6 @@ Because of our limited knowledge, the product we created has not really been app
 # Accomplishments that we've proud to:
 We learned how to use PHP and SQL for the first time.
 
-We can do it through prototypes on Figma.
 # What we learned:
 We learned to support each other as a team.
 # What's next for Untitled:
