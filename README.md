@@ -2,7 +2,7 @@
 
 Project submitted in PlutoHack contest, Oct 22-24, 2021
 
-Brainstorm and implement: haimeii, reallnhwy, tye2002
+Brainstorm and implement: haimeii, reallnhwy, tye2002, HuyDnh
 
 # Inspiration:
 Studying online during the pandemic, it is often difficult for students to find the right resources for them.
