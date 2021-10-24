@@ -65,22 +65,22 @@ CREATE TABLE `material` (
 --
 
 INSERT INTO `material` (`subjectid`, `materialid`, `materialtype`, `authorid`, `content`) VALUES
-(0, '21lxM', 'Virtual', 1, 'http://placehold.it/700x300'),
-(0, '55THV', 'Aural', 1, 'http://placehold.it/700x300'),
-(0, 'TR543', 'Read/Write', 1, 'http://placehold.it/700x300'),
-(0, '12THN', 'Kinesthetic', 1, 'http://placehold.it/700x300'),
-(2, '709HX', 'Read/Write', 1, 'http://placehold.it/700x300'),
-(3, '124TX', 'Read/Write', 1, 'http://placehold.it/700x300'),
-(1, 'smkuu', 'Virtual', 1, 'http://placehold.it/700x300'),
-(1, 'TAvNa', 'Read/Write', 0, 'http://placehold.it/700x300'),
-(2, 'YVMWb', 'Virtual', 0, 'http://placehold.it/700x300'),
-(2, 'hCr2X', 'Aural', 0, 'http://placehold.it/700x300'),
-(3, 'OUxdb', 'Virtual', 0, 'http://placehold.it/700x300'),
-(2, 'adt4W', 'Kinesthetic', 0, 'http://placehold.it/700x300'),
-(1, 'DIPoQ', 'Kinesthetic', 0, 'http://placehold.it/700x300'),
-(3, 'CYV34', 'Kinesthetic', 0, 'http://placehold.it/700x300'),
-(1, 'aTD1x', 'Aural', 0, 'http://placehold.it/700x300'),
-(3, 'hdr4Q', 'Aural', 0, 'http://placehold.it/700x300');
+(0, '21lxM', 'Virtual', 1, './img/placeholder700x300.png'),
+(0, '55THV', 'Aural', 1, './img/placeholder700x300.png'),
+(0, 'TR543', 'Read/Write', 1, './img/placeholder700x300.png'),
+(0, '12THN', 'Kinesthetic', 1, './img/placeholder700x300.png'),
+(2, '709HX', 'Read/Write', 1, './img/placeholder700x300.png'),
+(3, '124TX', 'Read/Write', 1, './img/placeholder700x300.png'),
+(1, 'smkuu', 'Virtual', 1, './img/placeholder700x300.png'),
+(1, 'TAvNa', 'Read/Write', 0, './img/placeholder700x300.png'),
+(2, 'YVMWb', 'Virtual', 0, './img/placeholder700x300.png'),
+(2, 'hCr2X', 'Aural', 0, './img/placeholder700x300.png'),
+(3, 'OUxdb', 'Virtual', 0, './img/placeholder700x300.png'),
+(2, 'adt4W', 'Kinesthetic', 0, './img/placeholder700x300.png'),
+(1, 'DIPoQ', 'Kinesthetic', 0, './img/placeholder700x300.png'),
+(3, 'CYV34', 'Kinesthetic', 0, './img/placeholder700x300.png'),
+(1, 'aTD1x', 'Aural', 0, './img/placeholder700x300.png'),
+(3, 'hdr4Q', 'Aural', 0, './img/placeholder700x300.png');
 
 -- --------------------------------------------------------
 

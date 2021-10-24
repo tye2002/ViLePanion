@@ -356,7 +356,7 @@
 
                 // Add material
                 $materialid = generate_string($permitted_chars, 5); 
-                $content = "http://placehold.it/700x300";
+                $content = "./img/placeholder700x300.png";
                 $sql= "INSERT INTO material(subjectid, materialid, materialtype, authorid, content) VALUES ('$subjectid','$materialid','$materialtype','$accountid','$content')";
                 $result = mysqli_query($conn,$sql);
                 $sql_materialid = "SELECT materialid FROM material WHERE subjectid = '$subjectid'";
