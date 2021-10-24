@@ -9,7 +9,7 @@ Due to the ineffectiveness of learning in an ordinary way not only during the pa
 We decided to create a website that allows the students to study in their proper learning style which consists of four core types:  **visual, auditory, reading and writing, and kinesthetic.** The website will ultimately improve and enhance the ability of individual learners as well as increase learning enjoyment.
 
 # What it does:
-*ViLepanion* provides the student with a survey to determine the student's suitable percentage for each learning style and conducts a result of which learning style suits the student the best. The student can do research and study the materials from the teachers on the website that are sorted according to the survey's result percentage.
+*ViLePanion* provides the student with a survey to determine the student's suitable percentage for each learning style and conducts a result of which learning style suits the student the best. The student can do research and study the materials from the teachers on the website that are sorted according to the survey's result percentage.
 
 # How we built it:
 We used HTML, CSS for coding the front-end, and PHP, SQL for the back-end. 
@@ -25,4 +25,4 @@ By utilizing the two design tools that we have just known, Figma and Powtoon our
 Together we learned how to work with Figma and Powtoon, a tool that we have not used before PlutoHacks, to design the prototype as well as the presentation video. Besides, PHP is a new programming language that Mei and Andrea got the first chance to get to know.
 
 # What's next for *ViLepanion:
-*ViLepanion* is believed to aid in learning overall in the future, therefore, we will create a mobile version and add in more functions to increase the interaction between the student and the teacher such as the comment section after every lecture so that the student can ask questions and receive answers from the teacher. Moreover, *ViLepanion* will be upgraded to be an Electronic Contact Book that assists the parents in tracking their children's learning status, grades, upcoming deadlines, and homework.
+*ViLePanion* is believed to aid in learning overall in the future, therefore, we will create a mobile version and add in more functions to increase the interaction between the student and the teacher such as the comment section after every lecture so that the student can ask questions and receive answers from the teacher. Moreover, *ViLepanion* will be upgraded to be an Electronic Contact Book that assists the parents in tracking their children's learning status, grades, upcoming deadlines, and homework.
