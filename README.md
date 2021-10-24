@@ -3,7 +3,7 @@ Project submitted for PlutoHack contest, Oct 22-24, 2021
 
 Brainstorm and implement: haimeii, reallnhwy, tye2002, HuyDnh
 
-## *VILEPANION* - YOUR COMPANION TO SUCCESS
+## *VILEPANION* - BETTER COMPANIONS - BETTER STUDENTS
 # Inspiration:
 Due to the ineffectiveness of learning in an ordinary way not only during the pandemic but has existed for a long time, our team planned to solve the problem and came up with a recognization of students' different ways of absorbing knowledge which has a significant impact on study’s performance. 
 We decided to create a website that allows the students to study in their proper learning style which consists of four core types:  **visual, auditory, reading and writing, and kinesthetic.** The website will ultimately improve and enhance the ability of individual learners as well as increase learning enjoyment.
