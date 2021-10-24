@@ -44,11 +44,11 @@
 
 <html lang="en">
 <head>
-    <title>Dashboard</title>
+    <title>VilePanion</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <link href="./img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -67,7 +67,8 @@
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="dashboard.php">Search Engine</a>
+    <img src="./img/logo.png"> 
+    <a class="navbar-brand" href="dashboard.php">VilePanion</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
