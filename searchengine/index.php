@@ -64,7 +64,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <img src="./img/logo.png"> 
-    <a class="navbar-brand" href="index.php">VilePanion</a>
+    <a class="navbar-brand" href="index.php">ViLePanion</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>

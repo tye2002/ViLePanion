@@ -56,7 +56,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <img src="./img/logo.png"> 
-    <a class="navbar-brand" href="dashboard.php">VilePanion</a>
+    <a class="navbar-brand" href="dashboard.php">ViLePanion</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
